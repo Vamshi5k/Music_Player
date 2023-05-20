@@ -1,0 +1,56 @@
+@media screen and (max-width: 991px){
+    .wrapper{
+        overflow: hidden;
+    }
+    .player{
+        height: 80vh;
+        width: 100%;
+
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .player{
+        width: 100%;
+        overflow: hidden;
+        height: 110vh;
+    }
+    .buttons{
+        font-size: 18px;
+        padding-inline: 0px 5px;
+    }
+    .repeat-track,
+    .random-track,
+    .playpause-track,
+    .prev-track,
+    .next-track {
+    padding: 15px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 479px){
+    .player{
+        width: 98%;
+        overflow: hidden;
+        height: 108vh;
+    }
+    .repeat-track,
+    .random-track,
+    .playpause-track,
+    .prev-track,
+    .next-track {
+    padding: 15px;
+    }
+    .buttons{
+        font-size: 15px;
+    }
+    .track-name{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+}
